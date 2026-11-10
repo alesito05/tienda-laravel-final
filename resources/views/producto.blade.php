@@ -1,0 +1,6 @@
+@if ($producto)
+    <h1>{{ $producto['nombre'] }}</h1>
+    <p>Precio: {{ $producto['precio'] }} €</p>
+@else
+    <p>Producto no encontrado</p>
+@endif
